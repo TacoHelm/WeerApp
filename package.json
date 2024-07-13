@@ -1,0 +1,19 @@
+{
+  "name": "weerapp",
+  "version": "1.0.0",
+  "description": "WeerApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TacoHelm/WeerApp.git"
+  },
+  "author": "Taco van der Helm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TacoHelm/WeerApp/issues"
+  },
+  "homepage": "https://github.com/TacoHelm/WeerApp#readme"
+}
