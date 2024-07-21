@@ -2,18 +2,27 @@
   "name": "weerapp",
   "version": "1.0.0",
   "description": "WeerApp",
-  "main": "index.js",
+  "main": "script.js",
+  "pivate": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "watch": "webpack watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TacoHelm/WeerApp.git"
   },
-  "author": "Taco van der Helm",
+  "author": "Taco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TacoHelm/WeerApp/issues"
   },
-  "homepage": "https://github.com/TacoHelm/WeerApp#readme"
+  "homepage": "https://github.com/TacoHelm/WeerApp#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0"
+  }
 }
