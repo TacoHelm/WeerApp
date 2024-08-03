@@ -1,7 +1,6 @@
 function reduceAPIAnswer (obj) {
     // function takes object from API-call and returns object with necesarry data
     const result = {}; // Object to be returned 
-    console.log(obj);
 
     // Adds location
     const {resolvedAddress} = obj;

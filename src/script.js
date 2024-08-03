@@ -2,6 +2,7 @@ import './style.css';
 import { queryAPI } from './api'
 import { reduceAPIAnswer } from './json';
 import { webPage } from './GUI';
+import { createWebSite } from './GUI2';
 
 
 //import './index.html';
@@ -25,6 +26,6 @@ You should change the look of the page based on the data, maybe by changing the 
 
 
 let result = queryAPI('zoetermeer');
-result.then((result) => reduceAPIAnswer(result)).then((data) => webPage(data));
+result.then((result) => reduceAPIAnswer(result)).then((data) => createWebSite(data));
 
 
